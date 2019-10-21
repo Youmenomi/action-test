@@ -2,5 +2,5 @@
 //resolve
 base: 01
 tf4 001
-foot: 04
+foot: 06
 rfix: 002
