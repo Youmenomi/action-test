@@ -1,7 +1,7 @@
 # action-test
 //resolve
 base: 01
-tf4 001
+tf5 001
 foot: 06
 rfix: 002
 
