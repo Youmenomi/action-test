@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"1":"External module","64":"Function","256":"Interface"},"rows":[{"id":0,"kind":1,"name":"\"retryExtra\"","url":"modules/_retryextra_.html","classes":"tsd-kind-external-module"},{"id":1,"kind":256,"name":"INotifier","url":"interfaces/_retryextra_.inotifier.html","classes":"tsd-kind-interface tsd-parent-kind-external-module","parent":"\"retryExtra\""},{"id":2,"kind":64,"name":"retryExtra","url":"modules/_retryextra_.html#retryextra","classes":"tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter","parent":"\"retryExtra\""}]};
