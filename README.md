@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+[rxjs-retry-extra](README.md) › [Globals](globals.md)
 
-You can use the [editor on GitHub](https://github.com/Youmenomi/action-test/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+# rxjs-retry-extra
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# nuxt-typescript-starter [![Build Status](http://drone.suote.com.tw/api/badges/youmenomi/nuxt-typescript-starter/status.svg)](http://drone.suote.com.tw/youmenomi/nuxt-typescript-starter)
 
-### Markdown
+This boilerplate built with [Nuxt.js](https://nuxtjs.org/) showcasing how to add [TypeScript](https://www.typescriptlang.org/) support. It features integrations with ESLint (linting), Prettier (code formatting), Jest (testing), Axios (http calls on steroids), PWA (Progressive Web App) and Automatically run eslint and jest before git commit.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- View intergration details from git history.
+- ~~Use [create-nuxt-ts-app](https://github.com/Youmenomi/create-nuxt-ts-app) cli to create your own project.~~
 
-```markdown
-Syntax highlighted code block
+## Quick Start
 
-# Header 1
-## Header 2
-### Header 3
+```shell
+# Clone the repo
+git clone https://github.com/Youmenomi/nuxt-typescript-starter.git
 
-- Bulleted
-- List
+cd nuxt-typescript-starter
+# Install dependencies
+yarn install
 
-1. Numbered
-2. List
+# serve with hot reload at localhost:3000
+yarn dev
 
-**Bold** and _Italic_ and `Code` text
+# build for production and launch server
+yarn build
+yarn start
 
-[Link](url) and ![Image](src)
+# generate static project
+yarn generate
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Typescript Support
 
-### Jekyll Themes
+- [x] Nuxt (Vue)
+- [x] Jest
+- [x] lint-staged
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Youmenomi/action-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## VSCode
 
-### Support or Contact
+### Prerequisites
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+### Autofix and format codes on save
+
+- [settings.json](http://gitlab.suote.com.tw/youmenomi/nuxt-typescript-starter/snippets/2)
+
+### Custom eslint rule in prettier
+
+- For example, for 4-space indentation: [.prettierrc](http://gitlab.suote.com.tw/youmenomi/nuxt-typescript-starter/snippets/4)
+
+## Resources
+
+- [Nuxt Typescript](https://typescript.nuxtjs.org/guide/setup.html#installation)
+- [ts-jest](https://kulshekhar.github.io/ts-jest/)
+- [lint-staged](https://github.com/okonet/lint-staged)
+- [Prettier](https://prettier.io/docs/en/install.html)
