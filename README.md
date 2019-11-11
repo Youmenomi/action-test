@@ -2,7 +2,7 @@
 //resolve
 base: 02
 tf5 002
-foot: 06
+foot: 07
 rfix: 002
 
 is: 04
